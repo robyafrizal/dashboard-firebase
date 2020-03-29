@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SignInLink from "./SignInLink";
+import SignOutLink from "./SignOutLink";
 
 export default function Navbar() {
   return (
@@ -10,6 +11,7 @@ export default function Navbar() {
           Roby Afrizal Palmendha
         </Link>
         <SignInLink />
+        <SignOutLink />
       </div>
     </nav>
   );
